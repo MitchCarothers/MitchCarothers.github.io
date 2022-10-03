@@ -35,7 +35,7 @@
 	}
 
 	.center {
-		display: flex;
+		text-align: center;
 	}
 
 	.button.block {
@@ -45,4 +45,10 @@
 	
 	.margin-auto {
 		margin: 0 auto;
+	}
+
+	.flex {
+		display: flex;
+		justify-content: flex;
+		align-items: center;
 	}
